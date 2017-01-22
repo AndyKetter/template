@@ -10,7 +10,7 @@
     <meta name="robots" content="index,follow">
     <meta name="application-name" content="">
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />  
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/font-awesome.min.css" />
     <link rel="stylesheet" href="./css/product-detail.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -236,15 +236,34 @@
             <img src="./images/form-icon.png" alt="form-icon"><span>Application Form</span>
         </div>
         <div class="form-inpt">
-            <input type="text" class="form-control" placeholder="Name">
-            <input type="text" class="form-control" placeholder="Company">
-            <input type="email" class="form-control" placeholder="E-Mail">
-            <input type="text" class="form-control" placeholder="Phone">
-            <textarea class="form-control" rows="5" placeholder="Your message"></textarea>
-            <button type="button" class="btn btn-primary">Send message</button>
+            <input type="text" class="form-control f-name" placeholder="Name">
+            <input type="text" class="form-control f-company" placeholder="Company">
+            <input type="email" class="form-control f-email" placeholder="E-Mail">
+            <input type="text" class="form-control f-phone" placeholder="Phone">
+            <textarea class="form-control f-message" rows="5" placeholder="Your message"></textarea>
+            <button id="JS_send" type="button" class="btn btn-primary">Send message</button>
         </div>
     </div>
+
+    <!--save success trigger modal -->
+	<div class="modal fade modal-warning bs-example-modal-sm" id="JS-save-success" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+		<div class="modal-dialog modal-sm">
+			<div class="modal-content">
+				<div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title">温馨提示</h4>
+				</div>
+				<div class="modal-body">
+                    保存成功
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-info" data-dismiss="modal">确定</button>
+				</div>
+			</div>
+		</div>
+	</div>
     <script src="./js/jquery-2.2.3.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/product-detail.min.js"></script>
      </body>
 </html>
