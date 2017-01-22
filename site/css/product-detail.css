@@ -134,6 +134,48 @@ footer {
   color: #fff;
 }
 
+body {
+  position: relative;
+}
+
+body > .application-form {
+  position: fixed;
+  bottom: 20%;
+  right: 0;
+  width: 316px;
+  height: 448px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+body > .application-form > .form-head {
+  height: 55px;
+  background-color: #459FED;
+  color: #fff;
+  font-size: 16px;
+  line-height: 55px;
+  padding: 0 20px;
+}
+
+body > .application-form > .form-head > span {
+  margin-left: 10px;
+}
+
+body > .application-form > .form-inpt {
+  padding: 0 20px;
+}
+
+body > .application-form > .form-inpt > input,
+body > .application-form > .form-inpt > textarea {
+  margin-top: 15px;
+}
+
+body > .application-form > .form-inpt > button {
+  width: 100%;
+  margin-top: 15px;
+}
+
 .main {
   padding-top: 50px;
 }
