@@ -47,10 +47,14 @@
 
 .f-36 {
   font-size: 36px;
+  margin-top:0;
+  margin-bottom: 0;
 }
 
 .f-18 {
   font-size: 18px;
+  margin-top:0;
+  margin-bottom: 0;
 }
 
 .pd30 {
@@ -198,6 +202,10 @@ body > .application-form > .form-inpt > button {
 .detail-img .d-r .t-f .t-head {
   font-size: 40px;
   padding-bottom: 10px;
+}
+.t-head{
+    margin-top:0;
+    margin-bottom: 0;
 }
 
 .detail-img .d-r .t-f .t-body {
